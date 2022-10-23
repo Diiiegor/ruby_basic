@@ -1,0 +1,7 @@
+my_range = (1..10)
+my_letters_range = ('a'..'d')
+puts(my_range.class)
+puts(my_range.to_a)
+puts(my_range.include? 3)
+puts(my_range.include? 300)
+puts(my_letters_range.to_a)
